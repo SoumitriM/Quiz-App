@@ -4,7 +4,7 @@ import { getAnswer } from "./getAnswer";
 import Button from "./button";
 import { getScore } from "./getScore";
 import ScoreLayout from "./scoreLayout";
-import wallpaper from "./dark-background.jpg";
+import "./quiz-app.css";
 class QuestionLayout extends Component {
   state = {
     id: 1,
@@ -47,22 +47,14 @@ class QuestionLayout extends Component {
   };
   render() {
     return (
-      <div
-        className="container"
-        style={{ backgroundImage: `url(${wallpaper})` }}
-      >
-        <div className="title">How Well Do You Know Soumitri</div>
+      <div className="container">
         {this.state.responses < 11 ? (
-          <div className="container p-5" style={{ color: " #ffdb4d" }}>
-            <div>
-              <h1>
-                {this.state.question._id}. {this.state.question.title}
-              </h1>
+          <div className="container p-5">
+            <div className="pageNumber">{this.state.question._id} /10</div>
+            <div className="question">
+              <p>"{this.state.question.title}"</p>
             </div>
-            <div
-              className="custom-control custom-radio p-3"
-              style={{ fontSize: "20px", color: "#ffcc66" }}
-            >
+            <div className="custom-control custom-radio p-3 radio-btn">
               {this.state.question.options.map((m) => (
                 <div key={m._id}>
                   <input
@@ -88,7 +80,6 @@ class QuestionLayout extends Component {
                 onClickNext={this.handleNext}
               />
             </div>
-            {this.state.score}
           </div>
         ) : (
           <ScoreLayout score={this.state.score} />

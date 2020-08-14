@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1e82eec2.chunk.css",
+    "main.js": "/static/js/main.e9bc4a8f.chunk.js",
+    "main.js.map": "/static/js/main.e9bc4a8f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.410ddc6b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.410ddc6b.js.map",
+    "static/css/2.f3cffc9e.chunk.css": "/static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.676cb54e.chunk.js": "/static/js/2.676cb54e.chunk.js",
+    "static/js/2.676cb54e.chunk.js.map": "/static/js/2.676cb54e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.b7a25aa377d8af18a632d0993b35e849.js": "/precache-manifest.b7a25aa377d8af18a632d0993b35e849.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.f3cffc9e.chunk.css.map": "/static/css/2.f3cffc9e.chunk.css.map",
+    "static/css/main.1e82eec2.chunk.css.map": "/static/css/main.1e82eec2.chunk.css.map",
+    "static/js/2.676cb54e.chunk.js.LICENSE.txt": "/static/js/2.676cb54e.chunk.js.LICENSE.txt",
+    "static/media/cat-image.gif": "/static/media/cat-image.3bc49bbe.gif",
+    "static/media/quiz-app.css": "/static/media/dark-background.69a8a16d.jpg",
+    "static/media/happy-cat.gif": "/static/media/happy-cat.95c62cea.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.410ddc6b.js",
+    "static/css/2.f3cffc9e.chunk.css",
+    "static/js/2.676cb54e.chunk.js",
+    "static/css/main.1e82eec2.chunk.css",
+    "static/js/main.e9bc4a8f.chunk.js"
+  ]
+}
